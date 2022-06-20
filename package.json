@@ -2,7 +2,7 @@
   "name": "ep.u3d.editor.eeng",
   "displayName": "EP.U3D.EDITOR.EENG",
   "description": "Replace patch file to engine directory.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "unity": "2019.2",
   "unityRelease": "0a12",
   "relatedPackages": {},
@@ -17,8 +17,5 @@
     "email": "wellshsu@outlook.com",
     "url": "https://github.com/wellshsu"
   },
-  "type": "tool",
-  "dependencies": {
-    "ep.u3d.editor.base": "0.0.2"
-  }
+  "type": "tool"
 }
