@@ -39,7 +39,7 @@ namespace EP.U3D.EDITOR.EENG
 
                 ProcessStartInfo startInfo = new ProcessStartInfo();
                 startInfo.UseShellExecute = true;
-                startInfo.FileName = $"{pkg.resolvedPath}/Editor/Libs/eeng.exe";
+                startInfo.FileName = $"{pkg.resolvedPath}/Editor/Libs/Patcher~/eeng.exe";
                 startInfo.WorkingDirectory = Path.GetDirectoryName(startInfo.FileName);
                 startInfo.WindowStyle = ProcessWindowStyle.Normal;
                 startInfo.Arguments = string.Format("-s \"{0}\" -d \"{1}\" -w {2} -b {3}", srcEngine, dstEngine, "false", "false");
